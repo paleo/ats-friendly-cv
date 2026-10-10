@@ -1,0 +1,48 @@
+{
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "present": "present",
+  "month": { "singular": "month", "plural": "months" },
+  "year": { "singular": "year", "plural": "years" },
+  "age": { "singular": "year old", "plural": "years old" },
+  "birthDate": "Born in {date}",
+  "workModes": { "remote": "remote", "hybrid": "hybrid" },
+  "freelance": "Freelance",
+  "entrySkills": "Skills",
+  "publicationKinds": { "article": "Article", "book": "Book", "paper": "Paper", "talk": "Talk" },
+  "languageNames": {
+    "de": "German",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "it": "Italian",
+    "pt": "Portuguese"
+  },
+  "inLanguage": "in {language}",
+  "colon": ": ",
+  "groupSeparator": " · ",
+  "detailSeparator": " – ",
+  "sectionTitles": {
+    "summary": "Profile",
+    "highlights": "Key achievements",
+    "skills": "Skills",
+    "experience": "Professional experience",
+    "projects": "Projects",
+    "education": "Education",
+    "certifications": "Certifications",
+    "languages": "Languages",
+    "publications": "Publications"
+  }
+}

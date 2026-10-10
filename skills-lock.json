@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "sharp-writing": {
+      "source": "paleo/skills",
+      "sourceType": "github",
+      "skillPath": "skills/sharp-writing/SKILL.md",
+      "computedHash": "1261c87c70bb25db14928a00e86835e282e9242cc74a6a5f62e3e8de52e110ff"
+    },
+    "top-down-typescript": {
+      "source": "paleo/skills",
+      "sourceType": "github",
+      "skillPath": "skills/top-down-typescript/SKILL.md",
+      "computedHash": "b24f41b122e3e77a5455f510f78650cef2a75fd96bef576fe9628776c2382a2c"
+    }
+  }
+}

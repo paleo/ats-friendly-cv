@@ -1,0 +1,298 @@
+{
+  "person": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "birthDate": "1990-05-14",
+    "contact": {
+      "email": "jane.doe@example.com",
+      "phone": "+33 6 00 00 00 00",
+      "address": {
+        "street": "1 rue de l’Exemple",
+        "postalCode": "69001",
+        "locality": "Lyon",
+        "country": "fr"
+      },
+      "links": {
+        "linkedIn": "https://www.linkedin.com/in/jane-doe-example",
+        "gitHub": "https://github.com/jane-doe-example"
+      }
+    },
+    "details": {
+      "nationality": { "en": "French", "fr": "Française" },
+      "driverLicense": { "en": "Driving licence", "fr": "Permis B" }
+    }
+  },
+  "headlines": {
+    "seniorSoftwareEngineer": {
+      "en": "Senior Software Engineer",
+      "fr": "Ingénieure logicielle senior"
+    },
+    "fullStackDeveloper": {
+      "en": "Full Stack Developer",
+      "fr": "Développeuse full stack"
+    }
+  },
+  "summaries": {
+    "general": {
+      "en": "I have built web software for {yearsOfExperience} years, mostly in TypeScript. I like to own a feature from the database to the interface, and to help a team grow.",
+      "fr": "Je développe des logiciels web depuis {yearsOfExperience} ans, surtout en TypeScript. J’aime porter une fonctionnalité de la base de données à l’interface, et aider une équipe à grandir."
+    }
+  },
+  "highlights": [
+    {
+      "en": "Cut the monthly cloud bill of Northwind by 40% by moving batch jobs to serverless functions.",
+      "fr": "Réduit de 40 % la facture cloud mensuelle de Northwind en passant les traitements par lots en fonctions serverless."
+    },
+    {
+      "en": "Maintainer of _tiny-forms_, an open source form library with 2,000 stars on GitHub.",
+      "fr": "Mainteneuse de _tiny-forms_, une bibliothèque open source de formulaires avec 2 000 étoiles sur GitHub."
+    },
+    {
+      "en": "Mentored six junior developers, two of whom became team leads.",
+      "fr": "Accompagné six développeurs juniors, dont deux sont devenus responsables d’équipe."
+    }
+  ],
+  "countries": {
+    "fr": { "en": "France", "fr": "France" },
+    "ch": { "en": "Switzerland", "fr": "Suisse" }
+  },
+  "skills": {
+    "JavaScript": { "hiddenByDefault": true },
+    "Git": { "hiddenByDefault": true },
+    "Mentoring": { "label": { "en": "Mentoring", "fr": "Mentorat" } },
+    "Hiring": { "label": { "en": "Hiring", "fr": "Recrutement" } },
+    "Public speaking": { "label": { "en": "Public speaking", "fr": "Prise de parole" } }
+  },
+  "entries": [
+    {
+      "id": "northwind",
+      "kind": "position",
+      "title": {
+        "en": "Senior Software Engineer",
+        "fr": "Ingénieure logicielle senior"
+      },
+      "organization": "Northwind Analytics",
+      "organizationUrl": "https://northwind.example.com",
+      "location": { "locality": "Lyon", "country": "fr" },
+      "workMode": "hybrid",
+      "start": "2022-03",
+      "context": {
+        "en": "Northwind Analytics publishes sales dashboards for 300 retail chains.",
+        "fr": "Northwind Analytics publie des tableaux de bord de ventes pour 300 enseignes."
+      },
+      "descriptions": {
+        "long": [
+          {
+            "en": "Designed the new data ingestion pipeline, which processes 50 million rows a day.",
+            "fr": "Conçu le nouveau pipeline d’ingestion de données, qui traite 50 millions de lignes par jour."
+          },
+          {
+            "en": "Moved batch jobs to AWS Lambda and cut the monthly cloud bill by 40%.",
+            "fr": "Migré les traitements par lots vers AWS Lambda et réduit la facture cloud mensuelle de 40 %."
+          },
+          {
+            "en": "Mentor of three junior developers; run the weekly architecture review.",
+            "fr": "Mentore de trois développeurs juniors ; j’anime la revue d’architecture hebdomadaire."
+          }
+        ],
+        "short": [
+          {
+            "en": "Designed the data ingestion pipeline and cut the cloud bill by 40%.",
+            "fr": "Conçu le pipeline d’ingestion de données et réduit la facture cloud de 40 %."
+          }
+        ]
+      },
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "Git",
+        "Mentoring"
+      ],
+      "skillUsage": {
+        "AWS": { "start": "2023-01" },
+        "React": { "share": 0.3 }
+      }
+    },
+    {
+      "id": "bluepeak",
+      "kind": "position",
+      "title": { "en": "Software Engineer", "fr": "Ingénieure logicielle" },
+      "organization": "Bluepeak",
+      "location": { "locality": { "en": "Geneva", "fr": "Genève" }, "country": "ch" },
+      "workMode": "remote",
+      "neverOnSite": true,
+      "start": "2019-06",
+      "end": "2022-02",
+      "context": {
+        "en": "Bluepeak sells booking software to ski resorts.",
+        "fr": "Bluepeak vend un logiciel de réservation aux stations de ski."
+      },
+      "descriptions": {
+        "long": [
+          {
+            "en": "Rewrote the booking interface in Vue.js; conversion rose by 12%.",
+            "fr": "Réécrit l’interface de réservation en Vue.js ; la conversion a augmenté de 12 %."
+          },
+          {
+            "en": "Built the public REST API used by 40 partner resorts.",
+            "fr": "Développé l’API REST publique utilisée par 40 stations partenaires."
+          }
+        ]
+      },
+      "skills": [
+        "TypeScript",
+        "Vue.js",
+        "Node.js",
+        "MySQL",
+        "Docker",
+        "JavaScript",
+        "Git",
+        "Hiring"
+      ]
+    },
+    {
+      "id": "freelance",
+      "kind": "freelance",
+      "title": { "en": "Web Developer", "fr": "Développeuse web" },
+      "location": { "locality": "Lyon", "country": "fr" },
+      "workMode": "remote",
+      "start": "2017-01",
+      "end": "2019-05",
+      "descriptions": {
+        "long": [
+          {
+            "en": "Built and maintained websites for 15 small businesses.",
+            "fr": "Créé et maintenu les sites web de 15 petites entreprises."
+          }
+        ]
+      },
+      "skills": ["PHP", "WordPress", "JavaScript", "MySQL"]
+    },
+    {
+      "id": "acme",
+      "kind": "position",
+      "title": { "en": "Junior Developer", "fr": "Développeuse junior" },
+      "organization": "Acme Systems",
+      "location": { "locality": "Paris", "country": "fr" },
+      "start": "2014-09",
+      "end": "2016-12",
+      "descriptions": {
+        "long": [
+          {
+            "en": "Maintained the billing module of an ERP written in Java.",
+            "fr": "Maintenu le module de facturation d’un ERP écrit en Java."
+          }
+        ]
+      },
+      "skills": ["Java", "Spring", "Oracle", "Git"]
+    },
+    {
+      "id": "codeClub",
+      "kind": "activity",
+      "title": { "en": "Volunteer Teacher", "fr": "Enseignante bénévole" },
+      "organization": "Code Club",
+      "location": { "locality": "Lyon", "country": "fr" },
+      "start": "2018-01",
+      "end": "2020-06",
+      "descriptions": {
+        "long": [
+          {
+            "en": "Taught programming basics to teenagers, two evenings a month.",
+            "fr": "Enseigné les bases de la programmation à des adolescents, deux soirs par mois."
+          }
+        ]
+      },
+      "skills": ["Public speaking"]
+    },
+    {
+      "id": "tinyForms",
+      "kind": "project",
+      "name": "tiny-forms",
+      "url": "https://github.com/jane-doe-example/tiny-forms",
+      "role": { "en": "Creator and maintainer", "fr": "Créatrice et mainteneuse" },
+      "start": "2020-09",
+      "descriptions": {
+        "long": [
+          {
+            "en": "A typed form library for React, with 2,000 stars on GitHub.",
+            "fr": "Une bibliothèque de formulaires typés pour React, avec 2 000 étoiles sur GitHub."
+          }
+        ]
+      },
+      "skills": ["TypeScript", "React"]
+    }
+  ],
+  "education": [
+    {
+      "start": "2012",
+      "end": "2014",
+      "degree": {
+        "en": "Master’s degree in Computer Science",
+        "fr": "Master informatique"
+      },
+      "institution": { "en": "University of Lyon", "fr": "Université de Lyon" }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023-05"
+    }
+  ],
+  "languages": [
+    {
+      "language": { "en": "French", "fr": "Français" },
+      "level": { "en": "Native", "fr": "Langue maternelle" }
+    },
+    {
+      "language": { "en": "English", "fr": "Anglais" },
+      "level": { "en": "Fluent (C1)", "fr": "Courant (C1)" }
+    }
+  ],
+  "publications": [
+    {
+      "id": "typedConfig",
+      "kind": "article",
+      "title": "Typed JSON configuration in practice",
+      "language": "en",
+      "date": "2024-02",
+      "publisher": "Northwind Engineering Blog",
+      "url": "https://northwind.example.com/blog/typed-json"
+    },
+    {
+      "id": "typescriptMigration",
+      "kind": "talk",
+      "title": "Migrer vers TypeScript sans tout arrêter",
+      "language": "fr",
+      "date": "2023-10",
+      "publisher": "Lyon Web Meetup"
+    }
+  ],
+  "taxonomies": {
+    "eras": {
+      "groups": [
+        {
+          "id": "typescript",
+          "label": "TypeScript, Node.js",
+          "members": ["northwind", "bluepeak"]
+        },
+        {
+          "id": "phpJava",
+          "label": "PHP, Java",
+          "members": ["freelance", "acme"]
+        },
+        {
+          "id": "other",
+          "label": { "en": "Other experience", "fr": "Autres expériences" },
+          "members": ["codeClub"],
+          "withoutYears": true
+        }
+      ]
+    }
+  }
+}

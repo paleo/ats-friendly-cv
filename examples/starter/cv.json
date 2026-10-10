@@ -1,0 +1,93 @@
+{
+  "person": {
+    "firstName": "Sam",
+    "lastName": "Taylor",
+    "contact": {
+      "email": "sam.taylor@example.com",
+      "phone": "+1 312 555 0147",
+      "address": { "locality": "Chicago, IL", "country": "us" },
+      "links": { "linkedIn": "https://www.linkedin.com/in/sam-taylor-example" }
+    }
+  },
+  "headlines": {
+    "marketingManager": "Marketing Manager"
+  },
+  "summaries": {
+    "general": "Marketing manager with {yearsOfExperience} years of experience in consumer brands. I plan and run multichannel campaigns, from budget to reporting, and I lead small teams of specialists."
+  },
+  "countries": {
+    "us": "United States"
+  },
+  "entries": [
+    {
+      "id": "lakeside",
+      "kind": "position",
+      "title": "Marketing Manager",
+      "organization": "Lakeside Foods",
+      "location": { "locality": "Chicago, IL", "country": "us" },
+      "workMode": "hybrid",
+      "start": "2021-04",
+      "context": "Lakeside Foods sells organic snacks in 1,200 grocery stores across the Midwest.",
+      "descriptions": {
+        "main": [
+          "Led a team of four specialists in content, paid media and email.",
+          "Grew online sales by 38% in two years with a new email and paid social program.",
+          "Managed a $1.2M annual budget and reported results to the executive team every month."
+        ]
+      },
+      "skills": [
+        "Team leadership",
+        "Budget management",
+        "Email marketing",
+        "Social media advertising",
+        "HubSpot",
+        "Google Analytics"
+      ]
+    },
+    {
+      "id": "brightline",
+      "kind": "position",
+      "title": "Digital Marketing Specialist",
+      "organization": "Brightline Media",
+      "location": { "locality": "Chicago, IL", "country": "us" },
+      "start": "2018-02",
+      "end": "2021-03",
+      "descriptions": {
+        "main": [
+          "Ran search and social campaigns for 12 retail clients.",
+          "Rebuilt the SEO process of the agency and doubled the organic traffic of key clients."
+        ]
+      },
+      "skills": ["SEO", "Google Ads", "Google Analytics", "Content strategy"]
+    },
+    {
+      "id": "greenstreet",
+      "kind": "position",
+      "title": "Marketing Assistant",
+      "organization": "Green Street Retail",
+      "location": { "locality": "Evanston, IL", "country": "us" },
+      "start": "2016-06",
+      "end": "2018-01",
+      "skills": ["Social media advertising", "Email marketing"]
+    }
+  ],
+  "education": [
+    {
+      "start": "2012",
+      "end": "2016",
+      "degree": "Bachelor of Business Administration, Marketing",
+      "institution": "University of Illinois Chicago"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Analytics Certification",
+      "issuer": "Google",
+      "date": "2022-09"
+    }
+  ],
+  "languages": [
+    { "language": "English", "level": "Native" },
+    { "language": "Spanish", "level": "Professional working proficiency" }
+  ]
+}

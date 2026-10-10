@@ -1,0 +1,29 @@
+{
+  "lang": "en",
+  "paperSize": "Letter",
+  "jobCountry": "us",
+  "headline": "marketingManager",
+  "summary": "general",
+  "sections": ["summary", "skills", "experience", "education", "certifications", "languages"],
+  "personalDetails": [["location", "phone"], ["email", "linkedIn"]],
+  "skillGroups": [
+    {
+      "label": "Marketing",
+      "skills": ["Email marketing", "Social media advertising", "SEO", "Content strategy"],
+      "withExperience": ["Email marketing", "Social media advertising"]
+    },
+    {
+      "label": "Tools",
+      "skills": ["Google Analytics", "HubSpot", "Google Ads"],
+      "highlighted": ["Google Analytics"]
+    },
+    {
+      "label": "Management",
+      "skills": ["Team leadership", "Budget management"]
+    }
+  ],
+  "skillPriority": ["Email marketing", "Social media advertising", "Google Analytics"],
+  "entries": {
+    "greenstreet": { "description": false }
+  }
+}

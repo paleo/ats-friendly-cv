@@ -1,0 +1,54 @@
+{
+  "typography": "french",
+  "months": [
+    "janvier",
+    "février",
+    "mars",
+    "avril",
+    "mai",
+    "juin",
+    "juillet",
+    "août",
+    "septembre",
+    "octobre",
+    "novembre",
+    "décembre"
+  ],
+  "present": "aujourd’hui",
+  "month": { "singular": "mois", "plural": "mois" },
+  "year": { "singular": "an", "plural": "ans" },
+  "age": { "singular": "an", "plural": "ans" },
+  "birthDate": "Naissance\u00a0: {date}",
+  "workModes": { "remote": "Télétravail", "hybrid": "Hybride" },
+  "freelance": "Freelance",
+  "entrySkills": "Compétences",
+  "publicationKinds": {
+    "article": "Article",
+    "book": "Livre",
+    "paper": "Publication scientifique",
+    "talk": "Conférence"
+  },
+  "languageNames": {
+    "de": "allemand",
+    "en": "anglais",
+    "es": "espagnol",
+    "fr": "français",
+    "it": "italien",
+    "pt": "portugais"
+  },
+  "inLanguage": "en {language}",
+  "colon": "\u00a0: ",
+  "groupSeparator": " · ",
+  "detailSeparator": " – ",
+  "sectionTitles": {
+    "summary": "Profil",
+    "highlights": "Réalisations clés",
+    "skills": "Compétences",
+    "experience": "Expérience professionnelle",
+    "projects": "Projets",
+    "education": "Formation",
+    "certifications": "Certifications",
+    "languages": "Langues",
+    "publications": "Publications"
+  }
+}

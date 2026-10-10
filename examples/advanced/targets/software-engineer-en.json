@@ -1,0 +1,57 @@
+{
+  "lang": "en",
+  "jobCountry": "fr",
+  "headline": "seniorSoftwareEngineer",
+  "summary": "general",
+  "taxonomy": "eras",
+  "sections": [
+    "summary",
+    "highlights",
+    "skills",
+    "experience",
+    "projects",
+    "publications",
+    "education",
+    "certifications",
+    "languages"
+  ],
+  "personalDetails": [["location", "nationality"], ["phone", "email"], ["linkedIn", "gitHub"]],
+  "skillGroups": [
+    {
+      "label": "Languages",
+      "skills": ["TypeScript", "JavaScript", "PHP", "Java"],
+      "withExperience": ["TypeScript"],
+      "highlighted": ["TypeScript"]
+    },
+    {
+      "label": "Frontend",
+      "skills": ["React", "Vue.js"],
+      "withExperience": ["React", "Vue.js"]
+    },
+    {
+      "label": "Backend",
+      "skills": ["Node.js", "PostgreSQL", "MySQL"],
+      "withExperience": ["Node.js"],
+      "highlighted": ["Node.js"]
+    },
+    {
+      "label": "Cloud and tools",
+      "skills": ["AWS", "Docker", "Git"],
+      "withExperience": ["AWS"]
+    },
+    {
+      "label": "Team",
+      "skills": ["Mentoring", "Hiring", "Public speaking"]
+    }
+  ],
+  "skillPriority": ["TypeScript", "Node.js", "React", "AWS", "PostgreSQL"],
+  "preferredDescriptions": ["long"],
+  "groups": {
+    "phpJava": { "withoutDescriptions": true }
+  },
+  "entries": {
+    "northwind": {
+      "highlightedSkills": ["TypeScript", "AWS"]
+    }
+  }
+}

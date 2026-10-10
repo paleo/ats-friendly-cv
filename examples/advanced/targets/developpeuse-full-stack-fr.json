@@ -1,0 +1,36 @@
+{
+  "lang": "fr",
+  "jobCountry": "fr",
+  "fileName": "CV {firstName} {lastName} {year} - {headline}.pdf",
+  "headline": "fullStackDeveloper",
+  "summary": "general",
+  "taxonomy": "eras",
+  "sections": ["summary", "skills", "experience", "projects", "education", "languages"],
+  "personalDetails": [["location", "age", "driverLicense"], ["phone", "email"], ["gitHub"]],
+  "skillGroups": [
+    {
+      "label": "Frontend",
+      "skills": ["React", "Vue.js", "TypeScript"],
+      "withExperience": ["React", "Vue.js", "TypeScript"],
+      "highlighted": ["React"]
+    },
+    {
+      "label": "Backend",
+      "skills": ["Node.js", "PostgreSQL", "MySQL", "PHP"],
+      "withExperience": ["Node.js"]
+    },
+    {
+      "label": "Équipe",
+      "skills": ["Mentoring", "Public speaking"]
+    }
+  ],
+  "skillPriority": ["React", "TypeScript", "Vue.js", "Node.js"],
+  "preferredDescriptions": ["short", "long"],
+  "groups": {
+    "phpJava": { "withoutDescriptions": true },
+    "other": { "hidden": true }
+  },
+  "labels": {
+    "sectionTitles": { "projects": "Projets open source" }
+  }
+}
