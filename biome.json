@@ -49,9 +49,6 @@
       "!**/dist",
       "!**/output",
       "!**/node_modules",
-      "!.local",
-      "!.local-wt",
-      "!.plans",
       "!.agents",
       "!.claude",
       "!cv"

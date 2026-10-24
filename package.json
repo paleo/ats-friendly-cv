@@ -16,8 +16,7 @@
     "test": "npm run typeonly && node --test tests/*.test.ts",
     "typecheck": "tsc -p .",
     "lint": "biome check",
-    "lint:fix": "biome check --write",
-    "workspace": "node scripts/workspace/workspace.mjs"
+    "lint:fix": "biome check --write"
   },
   "dependencies": {
     "@typeonly/validator": "^1.1.2",
@@ -25,7 +24,6 @@
     "playwright": "^1.63.0"
   },
   "devDependencies": {
-    "@alignfirst/workspace": "^0.36.0",
     "@biomejs/biome": "^2.5.14",
     "@types/node": "^24.19.0",
     "typeonly": "^1.1.3",
