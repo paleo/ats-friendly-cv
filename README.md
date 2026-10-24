@@ -15,7 +15,7 @@ Give your agent (Claude Code, Codex, etc.) your existing CV and ask:
 ```markdown
 My old CV: `/path/to/my/cv.docx`
 
-Clone the repository: `git clone https://github.com/paleo/ats-friendly-cv.git my-cv && cd my-cv`
+Clone the repository: `git clone https://github.com/paleo/ats-friendly-cv.git my-cv && cd my-cv && npm i`
 
 Set up this project and create a first draft of my new CV. Ask me about the design, build my stylesheet, then generate and check the PDF.
 
