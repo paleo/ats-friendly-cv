@@ -10,20 +10,17 @@ Build your own CV generator with a coding agent in a private clone of this repos
 
 ## Getting Started
 
-Clone the repository, then open it in Claude Code, Codex or another coding agent:
+Give your agent (Claude Code, Codex, etc.) your existing CV and ask:
 
-```sh
-git clone https://github.com/paleo/ats-friendly-cv.git
-cd ats-friendly-cv
+```markdown
+My old CV: `/path/to/my/cv.docx`
+
+Clone the repository: `git clone https://github.com/paleo/ats-friendly-cv.git my-cv && cd my-cv`
+
+Set up this project and create a first draft of my new CV. Ask me about the design, build my stylesheet, then generate and check the PDF.
+
+Help me configure my own private repository before pushing anything.
 ```
-
-Give your agent your existing CV and ask:
-
-> My old CV: `/path/to/my/cv.docx` (or PDF or whatever you have)
->
-> Set up this project and create a first draft of my new CV. Ask me about the design, build my stylesheet, then generate and check the PDF.
->
-> Help me configure my own private repository before pushing anything.
 
 ## Generate a CV
 
