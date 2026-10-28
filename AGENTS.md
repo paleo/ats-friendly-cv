@@ -6,16 +6,10 @@ A starting point for a custom CV generator in a private clone. Generates ATS-fri
 
 Run `npx -y alignfirst context` from the repository root as your first command, whatever the task. It prints the project conventions (ticket IDs, branch names, commits), the documentation map, and the AlignFirst protocols.
 
-### Conventions
-
-- Ticket IDs: `^\d+$`; without a ticket, use the next `side-N`.
-- Branch names: `{TICKET_ID}/{slug-1-3-words}`.
-- Commits: `type: summary`. Do not add coding agent attribution or co-author trailers.
-
 ## Two Kinds of Tasks
 
 - **Editing a CV.** `cv/` is the default location for user-created `cv.json`, stylesheets and `targets/`; it may not exist yet. Follow `docs/agent-guide.md`. `examples/` holds fictional CVs; edit them only to improve the project.
-- **Changing the project.** Code in `src/`, types in `types/`, labels in `labels/`. Read `DEVELOPERS.md`. Test PDFs with temporary copies of fictional examples and throwaway CSS; leave `examples/` and `cv/` untouched for tests.
+- **Changing the project.** Code in `src/`, types in `types/`, labels in `labels/`. Read `docs/code-conventions.md`. Test PDFs with temporary copies of fictional examples and throwaway CSS; leave `examples/` and `cv/` untouched for tests.
 
 ## Essential Documentation
 
@@ -23,6 +17,12 @@ Run `npx -y alignfirst context` from the repository root as your first command, 
 - `docs/pdf-style.md` — gather design preferences, author CSS and check the PDF.
 - `docs/architecture.md`
 - `docs/code-conventions.md`
+
+## Workspaces
+
+Run `npx -y alignfirst workspace --guide` for the lifecycle procedures. Setup is protocol-ready only: it shares effective `.plans` and usable untracked `.local`, without installing dependencies or starting services. Follow `docs/code-conventions.md` for application setup and checks.
+
+Exclude `.plans`, `.local` and `.local-wt` from broad codebase searches. External worktree owners run workspace teardown before deleting their checkout.
 
 ## Writing
 

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "conventions": {
+    "ticketIdPattern": "^\\d+$",
+    "git": {
+      "defaultBranch": "main",
+      "branchNameTemplate": "{TICKET_ID}/{slug-1-3-words}",
+      "commit": {
+        "style": "conventionalCommit"
+      },
+      "agentCoauthoring": false
+    }
+  },
+  "plans": {
+    "repositoryFolder": "ats-friendly-cv",
+    "autoArchive": true
+  },
+  "developerInstructions": "docs/code-conventions.md"
+}

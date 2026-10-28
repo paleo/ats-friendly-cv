@@ -94,4 +94,4 @@ pdftotext "$PDF" -
 
 Check clipping, overlaps, page breaks, contact spacing, bullet alignment, photo placement and readable type. Confirm embedded fonts with Unicode maps, tagged output, intact contact details and the correct sequence of headings, descriptions and keywords. Review every reported keyword omission. See [ATS Rules](ats.md#check-a-pdf) for another extractor and the full checklist.
 
-For project development, use temporary copies of fictional examples and throwaway CSS as described in [Verification](../DEVELOPERS.md#verification). Keep the owner's `cv/` and shipped examples untouched during tests.
+For project development, use temporary copies of fictional examples and throwaway CSS as described in [Verification](code-conventions.md#verification). Keep the owner's `cv/` and shipped examples untouched during tests.
